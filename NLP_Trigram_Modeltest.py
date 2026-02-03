@@ -115,3 +115,4 @@ for sentence in tokenized_tests:
         total_tokens += 1
 perplexityt = 2 **(-total_log_prob / total_tokens)
 print(f"\nPerplexity of the test set: {perplexityt:.4f}")
+
